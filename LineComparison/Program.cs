@@ -25,6 +25,16 @@ namespace LineComaparisonProblems
 
             length = Math.Sqrt(x + y);
             Console.WriteLine("The length of the cartesian points is: " + length);
+
+            //UC2 Showing the equality of lines
+            if (x == y)
+            {
+                Console.WriteLine("Both the lines are equal");
+            }
+            else
+            {
+                Console.WriteLine("Both the lines are not equal to each other");
+            }
             Console.ReadLine();
         }
     }
